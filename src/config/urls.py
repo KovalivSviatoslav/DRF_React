@@ -20,5 +20,6 @@ admin.sites.AdminSite.enable_nav_sidebar = False
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('todo.urls'))
+    path('', include('frontend.urls')),
+    path('', include('todo.urls')),
 ]
