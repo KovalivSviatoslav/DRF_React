@@ -1,4 +1,8 @@
 module.exports = {
+    output: {
+        path: __dirname + '/static/frontend',
+        filename: 'main.js'
+    },
     module: {
         rules: [{
             test: /\.js$/,

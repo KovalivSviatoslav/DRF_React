@@ -1,1 +1,1 @@
-Some text :)
+'TODO' tutorial project with Django Rest Fraemwork, React(Redux) and Webpack.
